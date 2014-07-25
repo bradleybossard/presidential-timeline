@@ -2,7 +2,7 @@ import csv
 import sqlite3
 
 
-with open('../raw_data/presidents-birth-dates.csv', 'rb') as fin:  # `with` statement available in 2.5+
+with open('../raw_data/presidents-birth-dates.csv', 'rb') as fin:
     # csv.DictReader uses first line in file for column headings by default
     dr = csv.DictReader(fin)  # comma is default delimiter
     to_db = [(i['birth_order'],
@@ -15,6 +15,7 @@ with open('../raw_data/presidents-birth-dates.csv', 'rb') as fin:  # `with` stat
               i['birth_state'],
               i['age_president']) for i in dr]
 
+drop_query = "DROP TABLE IF EXISTS birth;"
 create_query = "CREATE TABLE birth (birth_order, \
                                     name, \
                                     birth_date, \
@@ -25,10 +26,10 @@ create_query = "CREATE TABLE birth (birth_order, \
                                     birth_state, \
                                     age_president);"
 
-con = sqlite3.connect(":memory:")
+con = sqlite3.connect("./presidents.db")
 cur = con.cursor()
+cur.execute(drop_query)
 cur.execute(create_query)
-
 
 insert_query = "INSERT INTO birth (birth_order, \
                             name, \
