@@ -1,0 +1,53 @@
+OD,OB,Name,"Date of
+death",OO,Cause of death,Age,Place of death,Date of Burial,Place of Burial
+1,1,George Washington,"Dec 14, 1799, 10:00pm",1,epiglottitis,67,"Mount Vernon, Virginia",12/18/1799,"Mount Vernon, Virginia"
+2,3,Thomas Jefferson,"Jul 4, 1826, 12:30pm[1]",3,amoebic dysentery,83,"Charlottesville, Virginia",,"Monticello, Charlottesville, Virginia"
+3,2,John Adams,"Jul 4, 1826, 6:20pm[1]",2,heart failure,90,"Quincy, Massachusetts",,"United First Parish Church, Quincy, Massachusetts"
+4,5,James Monroe,"Jul 4, 1831, 3:15pm",5,tuberculosis,73,New York City,,"Hollywood Cemetery,Richmond, Virginia[2]"
+5,4,James Madison,"Jun 28, 1836, 6:00am",4,heart failure,85,"Montpelier Estate,Orange, Virginia",6/29/1836,"Montpelier Estate, Orange, Virginia"
+6,8,William Henry Harrison,"Apr 4, 1841, 12:30ama",9,pneumonia,68,"Washington, D.C.","April 8, (Re-interred June 1841)","William Henry Harrison Tomb State Memorial, North Bend, Ohio"
+7,6,Andrew Jackson,"Jun 8, 1845, 6:00pm",7,tuberculosis,78,"The Hermitage
+Nashville, Tennessee",,"The Hermitage, Nashville, Tennessee"
+8,7,John Quincy Adams,"Feb 23, 1848, 7:20pm",6,stroke,80,"Washington, D.C.",,"United First Parish Church, Quincy, Massachusetts"
+9,13,James K. Polk,"Jun 15, 1849, 3:15pm",11,cholera,53,"Nashville, Tennessee",,"Tennessee State Capitol, Nashville, Tennessee"
+10,10,Zachary Taylor,"Jul 9, 1850, 10:35pma",12,"bilious fever, typhoid fever, and cholera morbus, following heat stroke",65,"Washington, D.C.","July 13, 1850 (Re-interred October 1850; Exhumed and re-interred in 1991)","Zachary Taylor National Cemetery, Louisville, Kentucky"
+11,11,John Tyler,"Jan 18, 1862, 12:15am",10,respiratory failure,71,"Richmond, Virginia",1/20/1862,"Hollywood Cemetery, Richmond, Virginia"
+12,9,Martin Van Buren,"Jul 24, 1862, 2:00am",8,asthma,79,"Kinderhook, New York",7/27/1862,"Kinderhook Cemetery, Kinderhook, New York"
+13,17,Abraham Lincoln,"Apr 15, 1865, 7:22amb",16,"assassinated by gunshot to the back of the head
+(see Assassination of Abraham Lincoln)",56,"Washington, D.C.",5/4/1865,"Oak Ridge Cemetery,Springfield, Illinois"
+14,12,James Buchanan,"Jun 1, 1868, 8:30am",15,"respiratory failure, rheumatic gout",77,"Lancaster, Pennsylvania",6/4/1868,"Woodward Hill Cemetery, Lancaster, Pennsylvania"
+15,15,Franklin Pierce,"Oct 8, 1869, 4:49am",14,inflammation of the stomach,64,"Concord, New Hampshire",10/11/1869,"Old North Cemetery, Concord, New Hampshire"
+16,14,Millard Fillmore,"Mar 8, 1874, 11:10pm",13,paralysis resulting from stroke,74,"Buffalo, New York",3/12/1874,"Forest Lawn Cemetery, Buffalo, New York"
+17,16,Andrew Johnson,"Jul 31, 1875, 2:00am",17,paralysis,66,"Carter's Station, near Elizabethton, Tennessee",8/3/1875,"Andrew Johnson National Cemetery, Greeneville, Tennessee."
+18,21,James A. Garfield,"Sep 19, 1881, 10:35pmb",20,"septic shock following gunshot
+(see Assassination of James A. Garfield)",49,"Elberon, New Jersey","Sept. 26, 1881","Lakeview Cemetery,Cleveland, Ohio"
+19,18,Ulysses S. Grant,"Jul 23, 1885, 8:06am",18,carcinoma of the tongue and tonsils,63,"Wilton, New York",8/8/1885,"Grant's Tomb, New York, New York"
+20,20,Chester A. Arthur,"Nov 18, 1886, 5:00am",21,"Bright's disease, apoplexy",57,New York City,11/22/1886,"Albany Rural Cemetery,Menands, New York"
+21,19,Rutherford B. Hayes,"Jan 17, 1893, 11:00pm",19,heart disease,70,"Fremont, Ohio","Jan. 20, 1893 (Re-interred Apr. 3, 1915)","Spiegel Grove, Fremont, Ohio"
+22,22,Benjamin Harrison,"Mar 13, 1901, 4:45pm",23,pneumonia,67,"Indianapolis, Indiana",3/17/1901,"Crown Hill Cemetery, Indianapolis, Indiana"
+23,24,William McKinley,"Sep 14, 1901, 2:15amb",25,"gangrene within gunshot wounds
+(see Assassination of William McKinley)",58,"Buffalo, New York",,"McKinley National Memorial, Canton, Ohio"
+24,23,Grover Cleveland,"Jun 24, 1908, 8:40pm","22
+24",coronary sclerosis; paralysis; or intestinal obstruction[3],71,"Princeton, New Jersey",6/26/1908,"Princeton Cemetery, Princeton, New Jersey"
+25,27,Theodore Roosevelt,"Jan 6, 1919, 4:00am",26,"assumed coronary embolism,
+inflammatory rheumatism",60,"Oyster Bay, New York",1/8/1919,"Young's Memorial Cemetery, Oyster Bay, New York"
+26,28,Warren G. Harding,"Aug 2, 1923, 7:30pma",29,likely congestive heart failure,57,"San Francisco, California",8/2/1923,"Marion Cemetery,Marion, Ohio"
+27,25,Woodrow Wilson,"Feb 3, 1924, 11:15am",28,"apoplexy, paralysis",67,"Washington, D.C.",2/8/1924,"Washington National Cathedral, Washington, D.C."
+28,26,William Howard Taft,"Mar 8, 1930, 5:15pm",27,heart disease,72,"Washington, D.C.",,"Arlington National Cemetery, Arlington, Virginia"
+29,29,Calvin Coolidge,"Jan 5, 1933, 12:45pm",30,heart attack,60,"Northampton, Massachusetts",,"Notch Cemetery,Plymouth Notch,Vermont"
+30,31,Franklin D. Roosevelt,"Apr 12, 1945, 3:35pma",32,cerebral hemorrhage or stroke,63,"Warm Springs, Georgia",4/15/1945,"Home of Franklin D. Roosevelt National Historic Site
+Hyde Park, New York."
+31,38,John F. Kennedy,"Nov 22, 1963, 1:00pmb",35,"assassinated by gunshot to head
+(see Assassination of John F. Kennedy)",46,"Dallas, Texas",11/25/1963,"Arlington National Cemetery, Arlington, Virginia"
+32,30,Herbert Hoover,"Oct 20, 1964, 11:35am",31,"internal hemorrhage, upper gastrointestinal bleeding, strained vascular systems",90,New York City,10/25/1964,"Herbert Hoover Presidential Library and Museum
+West Branch, Iowa"
+33,33,Dwight D. Eisenhower,"Mar 28, 1969, 12:25pm",34,"coronary thrombosis, heart failure due to numerous heart attacks",78,"Washington, D.C.",4/2/1969,"Dwight D. Eisenhower Presidential Library and Museum, Abilene, Kansas"
+34,32,Harry S. Truman,"Dec 26, 1972, 7:47AM",33,"minor lung congestion; organ failures; cardiovascular system collapse, hypotension",88,"Kansas City, Missouri",12/28/1972,"Harry S. Truman Presidential Library and Museum,Independence, Missouri"
+35,34,Lyndon B. Johnson,"Jan 22, 1973, 4:33PM",36,heart attack,64,"Johnson City, Texas",1/25/1973,"Lyndon B. Johnson Nat'l Historical Park
+Johnson City, Texas"
+36,36,Richard M. Nixon,"Apr 22, 1994, 9:08PM",37,"stroke, paralysis, swelling of the brain
+(see Death and funeral of Richard Nixon)",81,New York City,4/27/1994,"Richard Nixon Presidential Library and Museum, Yorba Linda, California"
+37,35,Ronald Reagan,"Jun 5, 2004, 1:09PM",40,"Alzheimer's disease, pneumonia
+(see Death and state funeral of Ronald Reagan)",93,"Los Angeles, California",6/11/2004,"Ronald Reagan Presidential Library,Simi Valley, California"
+38,37,Gerald R. Ford,"Dec 26, 2006, 6:45PM",38,"arteriosclerotic cerebrovascular disease and diffuse arteriosclerosis
+(see Death and state funeral of Gerald Ford)",93,"Rancho Mirage, California",1/3/2007,"Gerald R. Ford Museum, Grand Rapids, Michigan"

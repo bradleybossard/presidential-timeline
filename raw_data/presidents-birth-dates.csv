@@ -1,0 +1,45 @@
+birth_order,name,birth_date,sign,birth_name,president_order,birth_place,birth_state,age_president
+1,George Washington,2/22/1732,Pisces,,1,Pope's Creek,Virginia,57
+2,John Adams,10/30/1735,Scorpio,"John Adams, Jr.",2,Braintree,Massachusetts,61
+3,Thomas Jefferson,4/13/1743,Aries,,3,Goochland County,Virginia,57
+4,James Madison,3/16/1751,Pisces,"James Madison, Jr.",4,Port Conway,Virginia,57
+5,James Monroe,4/28/1758,Taurus,,5,Monroe Hall,Virginia,58
+7,John Quincy Adams,7/11/1767,Cancer,,6,Braintree,Massachusetts,57
+6,Andrew Jackson,3/15/1767,Pisces,,7,Waxhaws Region,South/North Carolina,61
+9,Martin Van Buren,12/5/1782,Sagittarius,,8,Kinderhook,New York,54
+8,William Henry Harrison,2/9/1773,Aquarius,,9,Charles City County,Virginia,68
+11,John Tyler,3/29/1790,Aries,"John Tyler, Jr.",10,Charles City County,Virginia,51
+13,James K. Polk,11/2/1795,Scorpio,James Knox Polk,11,Pineville,North Carolina,49
+10,Zachary Taylor,11/24/1784,Sagittarius,,12,Barboursville,Virginia,64
+14,Millard Fillmore,1/7/1800,Capricorn,,13,Moravia,New York,50
+15,Franklin Pierce,11/23/1804,Sagittarius,,14,Hillsborough,New Hampshire,48
+12,James Buchanan,4/23/1791,Taurus,"James Buchanan, Jr.",15,Cove Gap,Pennsylvania,65
+17,Abraham Lincoln,2/12/1809,Aquarius,,16,Hardin County,Kentucky,52
+16,Andrew Johnson,12/29/1808,Capricorn,,17,Raleigh,North Carolina,56
+18,Ulysses S. Grant,4/27/1822,Taurus,Hiram Ulysses Grant,18,Point Pleasant,Ohio,46
+19,Rutherford B. Hayes,10/4/1822,Libra,Rutherford Birchard Hayes,19,Delaware,Ohio,54
+21,James A. Garfield,11/19/1831,Scorpio,James Abram Garfield,20,Moreland Hills,Ohio,49
+20,Chester A. Arthur,10/5/1829,Libra,Chester Alan Arthur,21,Fairfield,Vermont,51
+23,Grover Cleveland,3/18/1837,Pisces,Stephen Grover Cleveland,22,Caldwell,New Jersey,47
+22,Benjamin Harrison,8/20/1833,Leo,,23,North Bend,Ohio,55
+23,Grover Cleveland,3/18/1837,Pisces,Stephen Grover Cleveland,24,Caldwell,New Jersey,55
+24,William McKinley,1/29/1843,Aquarius,"William McKinley, Jr.",25,Niles,Ohio,54
+27,Theodore Roosevelt,10/27/1858,Scorpio,"Theodore Roosevelt, Jr.",26,New York City,New York,42
+26,William Howard Taft,9/15/1857,Virgo,,27,Cincinnati,Ohio,51
+25,Woodrow Wilson,12/28/1856,Capricorn,Thomas Woodrow Wilson,28,Staunton,Virginia,56
+28,Warren G. Harding,11/2/1865,Scorpio,Warren Gamaliel Harding,29,Blooming Grove,Ohio,55
+29,Calvin Coolidge,7/4/1872,Cancer,"John Calvin Coolidge, Jr.",30,Plymouth,Vermont,51
+30,Herbert Hoover,8/10/1874,Leo,Herbert Clark Hoover,31,West Branch,Iowa,54
+31,Franklin D. Roosevelt,1/30/1882,Aquarius,Franklin Delano Roosevelt,32,Hyde Park,New York,51
+32,Harry S. Truman,5/8/1884,Taurus,,33,Lamar,Missouri,60
+33,Dwight D. Eisenhower,10/14/1890,Libra,David Dwight Eisenhower,34,Denison,Texas,62
+38,John F. Kennedy,5/29/1917,Gemini,John Fitzgerald Kennedy,35,Brookline,Massachusetts,43
+34,Lyndon B. Johnson,8/27/1908,Virgo,Lyndon Baines Johnson,36,Stonewall,Texas,55
+36,Richard Nixon,1/9/1913,Capricorn,Richard Milhous Nixon,37,Yorba Linda,California,56
+37,Gerald Ford,7/14/1913,Cancer,"Leslie Lynch King, Jr.",38,Omaha,Nebraska,61
+40,Jimmy Carter,10/1/1924,Libra,"James Earl Carter, Jr.",39,Plains,Georgia,52
+35,Ronald Reagan,2/6/1911,Aquarius,Ronald Wilson Reagan,40,Tampico,Illinois,69
+39,George H. W. Bush,6/12/1924,Gemini,George Herbert Walker Bush,41,Milton,Massachusetts,64
+42,Bill Clinton,8/19/1946,Leo,William Jefferson Blythe III,42,Hope,Arkansas,46
+41,George W. Bush,7/6/1946,Cancer,George Walker Bush,43,New Haven,Connecticut,54
+43,Barack Obama,8/4/1961,Leo,Barack Hussein Obama II,44,Honolulu,Hawaii,47
