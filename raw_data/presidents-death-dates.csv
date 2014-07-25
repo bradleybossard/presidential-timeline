@@ -1,5 +1,4 @@
-OD,OB,Name,"Date of
-death",OO,Cause of death,Age,Place of death,Date of Burial,Place of Burial
+death_order,birth_order,name,death_date,president_order,death_cause,age,death_place,burial_date,burial_place
 1,1,George Washington,"Dec 14, 1799, 10:00pm",1,epiglottitis,67,"Mount Vernon, Virginia",12/18/1799,"Mount Vernon, Virginia"
 2,3,Thomas Jefferson,"Jul 4, 1826, 12:30pm[1]",3,amoebic dysentery,83,"Charlottesville, Virginia",,"Monticello, Charlottesville, Virginia"
 3,2,John Adams,"Jul 4, 1826, 6:20pm[1]",2,heart failure,90,"Quincy, Massachusetts",,"United First Parish Church, Quincy, Massachusetts"
