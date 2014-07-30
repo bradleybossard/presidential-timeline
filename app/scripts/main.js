@@ -1,19 +1,35 @@
 $(document).ready(function () {
   $.getJSON('../json/presidents.json', function(data) {
     var timelineData = [];
+    var groups = [];
     $.each(data.presidents, function(i, president) {
       var timelineEl = {};
       timelineEl.id = president.office_order;
-      timelineEl.content = president.name;
+      //timelineEl.content = president.name;
+      timelineEl.content = 'life'; 
       timelineEl.start = president.birth_date;
       if (president.death_date != null) { 
         timelineEl.end = president.death_date;
+      } else {
+       var d = new Date();
+        var curr_date = d.getDate();
+        var curr_month = d.getMonth() + 1; //Months are zero based
+        var curr_year = d.getFullYear();
+        timelineEl.end = curr_month + "-" + curr_date + "-" + curr_year
       }
+      timelineEl.group = i;
       timelineData.push(timelineEl);
+
+      groups.push({id: i, content: president.name, value: i});
     });
+    var timelineGroups = new vis.DataSet(groups);
 
     var container = document.getElementById('timeline-container');
     var options = {};
-    var timeline = new vis.Timeline(container, timelineData, options);
+    //var timeline = new vis.Timeline(container, timelineData, options);
+    var timeline = new vis.Timeline(container);
+    timeline.setOptions(options);
+    timeline.setGroups(timelineGroups);
+    timeline.setItems(timelineData);
     });
 });
