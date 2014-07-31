@@ -20,7 +20,10 @@ $(document).ready(function () {
       timelineEl.group = i;
       timelineData.push(timelineEl);
 
-      groups.push({id: i, content: president.name, value: i});
+      // Use this to limit number of presidents added to timeline.
+      //if (i < 10) {
+        groups.push({id: i, content: president.name, value: i});
+      //}
     });
     var timelineGroups = new vis.DataSet(groups);
 
