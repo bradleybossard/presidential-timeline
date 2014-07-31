@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+  var timeline;
+
   $.getJSON('../json/presidents.json', function(data) {
     var timelineData = [];
     var groups = [];
@@ -36,9 +39,19 @@ $(document).ready(function () {
       
     };
     //var timeline = new vis.Timeline(container, timelineData, options);
-    var timeline = new vis.Timeline(container);
+    timeline = new vis.Timeline(container);
     timeline.setOptions(options);
     timeline.setGroups(timelineGroups);
     timeline.setItems(timelineData);
     });
+
+    $('#zoom-in-button').on('click', function() {
+      timeline.range.zoom(0.5);
+    });
+
+    $('#zoom-out-button').on('click', function() {
+      timeline.range.zoom(2);
+    });
+
+
 });
