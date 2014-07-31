@@ -28,7 +28,13 @@ $(document).ready(function () {
     var timelineGroups = new vis.DataSet(groups);
 
     var container = document.getElementById('timeline-container');
-    var options = {};
+    var options = { 
+      orientation: 'top',
+      /*height: '300px',*/
+      align: 'center',
+      zoomable: false
+      
+    };
     //var timeline = new vis.Timeline(container, timelineData, options);
     var timeline = new vis.Timeline(container);
     timeline.setOptions(options);
