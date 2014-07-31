@@ -53,5 +53,14 @@ $(document).ready(function () {
       timeline.range.zoom(2);
     });
 
+    $('#move-left-button').on('click', function() {
+       timeline.range.move(-0.2);
+       timeline.redraw();
+    });
+
+    $('#move-right-button').on('click', function() {
+       timeline.range.move(0.2);
+       timeline.redraw();
+    });
 
 });
