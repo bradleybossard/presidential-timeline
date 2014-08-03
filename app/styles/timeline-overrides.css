@@ -1,13 +1,10 @@
     .vis.timeline.root {
-      border: 2px solid purple;
       font-size: 12pt;
     }
 
     /* Single, non-range events */
     .vis.timeline .item {
-      /*border-color: #F991A3;*/
-      background-color: rgba(249, 145, 163, 0.5); 
-      /*background-color: pink;*/
+      background-color: rgba(220, 220, 240, 0.5); 
       text-align: center;
       font-size: 15pt;
       color: green;
@@ -18,11 +15,13 @@
       text-align: center;
     }
 
+/*
     .vis.timeline .item,
     .vis.timeline .item.line {
       border-width: 3px;
       color: green;
     }
+*/
 
     .vis.timeline .item.dot {
       border-width: 10px;
@@ -34,8 +33,13 @@
       background-color: lightgreen;
     }
 
+
+    .vis.timeline .timeaxis.foreground {
+      background-color: rgba(200, 200, 200, 0.5); 
+    }
+
     .vis.timeline .timeaxis .text {
-      color: purple;
+      color: #191b6d;
       padding-top: 10px;
       padding-left: 10px;
     }

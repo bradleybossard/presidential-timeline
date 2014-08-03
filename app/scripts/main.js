@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   var timeline;
 
-  $.getJSON('../json/presidents.json', function(data) {
+  $.getJSON('/json/presidents.json', function(data) {
     var timelineData = [];
     var groups = [];
     $.each(data.presidents, function(i, president) {
