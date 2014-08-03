@@ -46,21 +46,22 @@ $(document).ready(function () {
     });
 
     $('#zoom-in-button').on('click', function() {
-      timeline.range.zoom(0.5);
+      timeline.range.zoom(0.8);
     });
 
     $('#zoom-out-button').on('click', function() {
-      timeline.range.zoom(2);
+      timeline.range.zoom(1.2);
     });
 
+/*
     $('#move-left-button').on('click', function() {
        timeline.range.move(-0.2);
-       timeline.redraw();
+       //timeline.redraw();
     });
 
     $('#move-right-button').on('click', function() {
        timeline.range.move(0.2);
-       timeline.redraw();
+       //timeline.redraw();
     });
-
+*/
 });
