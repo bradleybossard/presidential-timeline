@@ -1,22 +1,27 @@
     .vis.timeline.root {
       border: 2px solid purple;
-      /*font-family:  purisa, 'comic sans', cursive;*/
-      /*font-family: 'Libre Baskerville', serif;*/
       font-size: 12pt;
-      /*background: #ffecea;*/
     }
 
+    /* Single, non-range events */
     .vis.timeline .item {
-      border-color: #F991A3;
-      background-color: pink;
+      /*border-color: #F991A3;*/
+      background-color: rgba(249, 145, 163, 0.5); 
+      /*background-color: pink;*/
+      text-align: center;
       font-size: 15pt;
-      color: purple;
+      color: green;
       box-shadow: 5px 5px 20px rgba(128,128,128, 0.5);
+    }
+
+    .vis.timeline div.vispanel.left {
+      text-align: center;
     }
 
     .vis.timeline .item,
     .vis.timeline .item.line {
       border-width: 3px;
+      color: green;
     }
 
     .vis.timeline .item.dot {
