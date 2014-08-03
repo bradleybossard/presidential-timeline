@@ -1,6 +1,7 @@
     .vis.timeline.root {
       border: 2px solid purple;
       /*font-family:  purisa, 'comic sans', cursive;*/
+      /*font-family: 'Libre Baskerville', serif;*/
       font-size: 12pt;
       /*background: #ffecea;*/
     }
@@ -46,3 +47,4 @@
     .vis.timeline .timeaxis .grid.major {
       border-width: 2px;
       border-color: #F991A3;
+    }

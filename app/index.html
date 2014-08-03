@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css" />
         <!-- endbower -->
         <!-- endbuild -->
+        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/timeline-overrides.css">
         <link rel="stylesheet" href="styles/main.css">
@@ -24,12 +25,67 @@
         <!-- endbuild -->
     </head>
     <body>
-        <h1>Timeline of US Presidents</h1>
-        <div id="timeline-container"></div>
-        <div id="zoom-in-button">zoom in</div>
-        <div id="zoom-out-button">zoom out</div>
-        <div id="move-left-button">move left</div>
-        <div id="move-right-button">move right</div>
+        <!--<h1>Timeline of US Presidents</h1>-->
+        <div id="header">
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <br>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            Timeline of US Presidents
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <br>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <br>
+          </div>
+          <div class="stripes"></div>
+        </div>
+
+
+        <div id="timeline-controls">
+          <span id="zoom-in-button"><i class="fa fa-search-plus"></i></span>
+          <span id="zoom-out-button"><i class="fa fa-search-minus"></i></span>
+          <span id="move-left-button"><i class="fa fa-arrow-circle-o-left"></i></span>
+          <span id="move-right-button"><i class="fa fa-arrow-circle-o-right"></i></span>
+        </div>
+        <div id="timeline-container">
+        </div>
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
