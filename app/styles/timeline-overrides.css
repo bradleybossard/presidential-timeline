@@ -6,13 +6,27 @@
     .vis.timeline .item {
       background-color: rgba(220, 220, 240, 0.5); 
       text-align: center;
-      font-size: 15pt;
       color: green;
       box-shadow: 5px 5px 20px rgba(128,128,128, 0.5);
     }
 
     .vis.timeline div.vispanel.left {
       text-align: center;
+    }
+
+    .vis.timeline div.vispanel .labelset {
+      /*width: 200px;*/
+      font-size: 14px;
+    }
+
+    .vis.timeline div.vispanel.background {
+      /*background-color: rgba(250, 200, 200, 0.5);*/
+      background-color: rgba(250, 200, 200);
+    }
+
+    .vis.timeline div.vispanel.center {
+      background-color: rgba(200, 200, 200, 0.5);
+      /*background-color: rgb(240, 240, 240);*/
     }
 
 /*
@@ -33,10 +47,10 @@
       background-color: lightgreen;
     }
 
-
     .vis.timeline .timeaxis.foreground {
-      background-color: rgba(200, 200, 200, 0.5); 
+      background-color: rgba(200, 150, 200, 0.5);
     }
+
 
     .vis.timeline .timeaxis .text {
       color: #191b6d;
@@ -57,3 +71,26 @@
       border-width: 2px;
       border-color: #F991A3;
     }
+
+
+/* Responsive: Portrait tablets and up */
+@media screen
+and (min-width: 768px)
+and (max-width: 1024px) {
+
+.vis.timeline div.vispanel .labelset {
+  width: 230px;
+}
+
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen
+and (min-width: 1025px) {
+
+.vis.timeline div.vispanel .labelset {
+  width: 300px;
+}
+
+}
+
