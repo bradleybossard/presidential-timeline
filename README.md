@@ -3,7 +3,7 @@ presidential-timeline
 
 Demo
 ----
-(Demo)[http://bradleybossard.github.io/presidential-timeline/]
+[Demo](http://bradleybossard.github.io/presidential-timeline/)
 
 The idea behind this project is to create an interactive
 timeline containing events for the US presidents.
