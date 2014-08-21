@@ -13,6 +13,7 @@ Links
 
 TODOs
 -----
-Add sliding window for facts.
-Add "In Office" segments to each president's life
-Add a pop up with the description of each
+* Add sliding window for facts.
+* Add "In Office" segments to each president's life
+* Add a pop up with the description of each
+* Add auto-deployment ala [http://yeoman.io/learning/deployment.html](http://yeoman.io/learning/deployment.html)
